@@ -1,0 +1,80 @@
+.todo-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.input {
+  border: none;
+  width: 300px;
+  padding: 1rem 3rem 1rem 1rem;
+  border-radius: 1rem;
+  background-color: rgb(19, 16, 16);
+  color: white;
+  font-size: 1rem;
+  outline: 2px solid #e06b34;
+  font-family: "Inter", sans-serif;
+}
+
+.input-btn {
+  background-color: transparent;
+  color: #e06b34;
+  border: none;
+  font-size: 1.5rem;
+  position: absolute;
+  right: 0;
+  margin-right: 1rem;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.input-btn:hover {
+  transform: translateY(-1px);
+}
+
+.input-container {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.todo-item-container {
+  margin-top: 2rem;
+}
+
+.todo-item {
+  background-color: rgb(19, 16, 16);
+  font-size: 1.4rem;
+  width: 300px;
+  padding-left: 1rem;
+  border-radius: 10px;
+  padding: 1rem 2rem;
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.checkbox {
+  margin-right: 0.5rem;
+}
+
+.delete-icon {
+  color: red;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.delete-all-btn {
+  background-color: red;
+  padding: 0.5rem 1rem;
+  margin-top: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.delete-icon:hover {
+  transform: translateY(-1px);
+}
